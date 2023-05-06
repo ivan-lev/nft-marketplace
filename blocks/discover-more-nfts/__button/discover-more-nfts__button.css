@@ -1,5 +1,5 @@
 .discover-more-nfts__button:before {
-  content: url('../../../../images/button-eye.svg');
+  content: url('../../../images/button-eye.svg');
   line-height: 0;
   margin-right: 14px;
 }
