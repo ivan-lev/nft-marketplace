@@ -1,0 +1,5 @@
+.trending-collection__table {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 30px;
+}

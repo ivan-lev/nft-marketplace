@@ -1,0 +1,8 @@
+.discover-digital-art__button {
+}
+
+.discover-digital-art__button:before {
+  content: url('../../../images/button-rocket-white.svg');
+  line-height: 0;
+  margin-right: 14px;
+}

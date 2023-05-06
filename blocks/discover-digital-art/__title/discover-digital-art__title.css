@@ -1,0 +1,13 @@
+.discover-digital-art__title {
+  margin: 0 0 20px 0;
+  font-weight: 600;
+  font-size: 67px;
+  line-height: 110%;
+}
+
+@media screen and (max-width: 1024px) {
+  .discover-digital-art__title {
+    font-size: 55px;
+    line-height: 110%;
+  }
+}

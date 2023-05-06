@@ -1,0 +1,12 @@
+.discover-digital-art__text {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 160%;
+  margin: 0 0 30px 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .discover-digital-art__text {
+    font-size: 20px;
+  }
+}

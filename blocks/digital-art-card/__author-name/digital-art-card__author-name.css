@@ -1,0 +1,20 @@
+.digital-art-card__author-name {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.digital-art-card__author-name:before {
+  content: '';
+  background-size: 100%;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 12px;
+}

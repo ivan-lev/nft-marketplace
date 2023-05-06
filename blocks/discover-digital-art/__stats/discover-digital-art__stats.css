@@ -1,0 +1,7 @@
+.discover-digital-art__stats {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-area: content;
+}

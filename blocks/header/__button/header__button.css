@@ -1,0 +1,7 @@
+.header__button {
+  padding: 0 30px;
+}
+
+.header__button:before {
+  content: url('../../../images/button-sign-up.svg');
+}

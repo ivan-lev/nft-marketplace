@@ -1,0 +1,4 @@
+.trending-collection__table-small-images-row {
+  display: flex;
+  justify-content: space-between;
+}

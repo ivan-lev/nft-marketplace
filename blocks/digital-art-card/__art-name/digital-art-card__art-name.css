@@ -1,0 +1,9 @@
+.digital-art-card__art-name {
+  display: inline-block;
+  margin: 0 0 10px 0;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  color: #fff;
+  text-decoration: none;
+}

@@ -1,0 +1,8 @@
+.trending-collection__browse-button {
+  width: calc(calc(100% - 30px) / 3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  background: #a259ff;
+}

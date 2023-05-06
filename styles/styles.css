@@ -22,7 +22,7 @@
 
 /* ===== COMMON STYLES ===== */
 
-.button-style-link {
+/* .button-style-link {
   font-family: 'Work Sans';
   font-style: normal;
   font-weight: 600;
@@ -44,60 +44,59 @@
 .button-style-link:before {
   line-height: 0;
   margin-right: 12px;
-}
+} */
 
-.button-style-link_transparent {
+/* .button-style-link_background_transparent {
   background: none;
-}
+} */
 
-.section {
+/* .section {
   padding: 80px 115px;
-}
+} */
 
-.section-header {
+/* .section-header {
   padding-bottom: 60px;
-}
+} */
 
-.section-header_with-button {
+/* .section-header_type_with-button {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-}
+} */
 
-.section-title {
+/* .section-header__title {
   font-weight: 600;
   font-size: 38px;
   line-height: 120%;
   margin: 0 0 10px 0;
-}
+} */
 
-.section-subtitle {
+/* .section-header__subtitle {
   font-weight: 400;
   font-size: 22px;
   line-height: 160%;
   margin: 0;
-}
+} */
 
-.digital-art-card {
+/* .digital-art-card {
   width: 510px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 20px;
   overflow: hidden;
   line-height: 0;
-}
+} */
 
-.digital-art-card__image {
+/* .digital-art-card__image {
   width: 100%;
-  /* height: 400px; */
   object-fit: cover;
-}
+} */
 
-.digital-art-card__image-description {
+/* .digital-art-card__image-description {
   background: #3b3b3b;
   padding: 22px 20px;
-}
+} */
 
-.digital-art-card__art-name {
+/* .digital-art-card__art-name {
   display: inline-block;
   margin: 0 0 10px 0;
   font-weight: 600;
@@ -105,9 +104,9 @@
   line-height: 140%;
   color: #fff;
   text-decoration: none;
-}
+} */
 
-.digital-art-card__author-name {
+/* .digital-art-card__author-name {
   display: flex;
   align-items: center;
   margin: 0;
@@ -126,155 +125,155 @@
   border-radius: 50%;
   display: inline-block;
   margin-right: 12px;
-}
+} */
 
 /* ===== HEADER STYLES ===== */
 
-.header {
+/* .header {
   padding: 20px 50px;
   box-sizing: border-box;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 
-.header__navigation {
+/* .header__navigation {
   display: flex;
   gap: 50px;
   align-items: center;
-}
+} */
 
-.header__link {
+/* .header__link {
   font-weight: 600;
   font-size: 16px;
   line-height: 140%;
   color: #fff;
   text-decoration: none;
-}
+} */
 
-.header__button {
+/* .header__button {
   padding: 0 30px;
 }
 
 .header__button:before {
   content: url('../images/button-sign-up.svg');
-}
+} */
 
 /* ===== DISCOVER-DIGITAL-ART STYLES ===== */
 
-.discover-digital-art {
+/* .discover-digital-art {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-}
+} */
 
-.discover-digital-art__text-column {
+/* .discover-digital-art__text-column {
   width: 500px;
-}
+} */
 
-.discover-digital-art__title {
+/* .discover-digital-art__title {
   margin: 0 0 20px 0;
   font-weight: 600;
   font-size: 67px;
   line-height: 110%;
-}
+} */
 
-.discover-digital-art__text {
+/* .discover-digital-art__text {
   font-weight: 400;
   font-size: 22px;
   line-height: 160%;
   margin: 0 0 30px 0;
-}
+} */
 
-.discover-digital-art__button:before {
+/* .discover-digital-art__button:before {
   content: url('../images/button-rocket-white.svg');
   line-height: 0;
   margin-right: 14px;
-}
+} */
 
-.discover-digital-art__stats {
+/* .discover-digital-art__stats {
   margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   grid-area: content;
-}
+} */
 
-.discover-digital-art__stats-data {
+/* .discover-digital-art__stats-data {
   margin: 0;
   font-family: 'Space Mono', monospace;
   font-weight: 700;
   font-size: 28px;
-}
+} */
 
-.discover-digital-art__stats-description {
+/* .discover-digital-art__stats-description {
   font-size: 24px;
   margin: 0;
-}
+} */
 
-.discover-digital-art__author-name:before {
+/* .discover-digital-art__author-name:before {
   background-image: url('..//images/user-animakid.jpg');
-}
+} */
 
 /* ===== TRENDING=COLLECTION STYLES ===== */
 
-.trending-collection__table {
+/* .trending-collection__table {
   display: flex;
   justify-content: space-evenly;
   gap: 30px;
-}
+} */
 
-.trending-collection__table-column {
+/* .trending-collection__table-column {
   width: calc(calc(100% - 60px) / 3);
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   gap: 15px;
   justify-content: space-between;
-}
+} */
 
-.trending-collection__table-picture_big {
+/* .trending-collection__table-image-big {
   width: 100%;
   border-radius: 20px;
-}
+} */
 
-.trending-collection__table-small-pictures {
+/* .trending-collection__table-small-images-row {
   display: flex;
   justify-content: space-between;
-}
+} */
 
-.trending-collection__table-picture_small {
+/* .trending-collection__table-image-small {
   width: calc(calc(100% - 30px) / 3);
   border-radius: 20px;
-}
+} */
 
-.trending-collection__browse {
+/* .trending-collection__browse-button {
   width: calc(calc(100% - 30px) / 3);
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 20px;
   background: #a259ff;
-}
+} */
 
-.trending-collection__browse-content {
+/* .trending-collection__browse-content {
   font-family: 'Space Mono';
   font-style: normal;
   font-weight: 700;
   font-size: 22px;
-}
+} */
 
-.trending-collection__digital-art-author-name-1:before {
+/* .trending-collection__digital-art-author-name-1:before {
   background-image: url('../images/user-mrfox.jpg');
-}
+} */
 
-.trending-collection__digital-art-author-name-2:before {
+/* .trending-collection__digital-art-author-name-2:before {
   background-image: url('../images/user-shroomie.jpg');
-}
+} */
 
-.trending-collection__digital-art-author-name-3:before {
+/* .trending-collection__digital-art-author-name-3:before {
   background-image: url('../images/user-bekind2robots.jpg');
-}
+} */
 
 /* ===== TOP CREATORS STYLES ===== */
 
@@ -624,7 +623,7 @@
   margin-right: 12px;
   border-radius: 50%;
   content: '';
-  background-image: url('../images/magic-mushrooms__avatar.png');
+  background-image: url('../images/user-shroomie.jpg');
   background-size: contain;
 }
 
