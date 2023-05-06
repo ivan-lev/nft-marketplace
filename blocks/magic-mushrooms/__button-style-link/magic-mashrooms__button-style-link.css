@@ -1,0 +1,8 @@
+.magic-mashrooms__button-style-link {
+  background-color: #fff;
+  color: #2b2b2b;
+}
+
+.magic-mashrooms__button-style-link:before {
+  content: url('../../../images/button-eye.svg');
+}

@@ -4,3 +4,15 @@
   font-weight: 700;
   font-size: 22px;
 }
+
+@media screen and (max-width: 1100px) {
+  .trending-collection__browse-content {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .trending-collection__browse-content {
+    font-size: 18px;
+  }
+}

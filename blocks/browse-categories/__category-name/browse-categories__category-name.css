@@ -1,0 +1,11 @@
+.browse-categories__category-name {
+  max-width: fit-content;
+  background: #3b3b3b;
+  margin: 0;
+  margin-left: 30px;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  color: #fff;
+  text-decoration: none;
+}

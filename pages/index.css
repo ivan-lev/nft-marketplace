@@ -76,19 +76,55 @@
 @import url('../blocks/browse-categories/__category-link/browse-categories__category-link.css');
 @import url('../blocks/browse-categories/__image/browse-categories__image.css');
 @import url('../blocks/browse-categories/__icon/browse-categories__icon.css');
+@import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_art.css');
+@import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_collectibles.css');
+@import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_music.css');
+@import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_photography.css');
+@import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_sport.css');
+@import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_utility.css');
+@import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_video.css');
+@import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_virtual-worlds.css');
 @import url('../blocks/browse-categories/__placeholder/browse-categories__placeholder.css');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
+@import url('../blocks/browse-categories/__placeholder/_type/browse-categories__placeholder_type_art.css');
+@import url('../blocks/browse-categories/__placeholder/_type/browse-categories__placeholder_type_collectibles.css');
+@import url('../blocks/browse-categories/__placeholder/_type/browse-categories__placeholder_type_music.css');
+@import url('../blocks/browse-categories/__placeholder/_type/browse-categories__placeholder_type_photography.css');
+@import url('../blocks/browse-categories/__placeholder/_type/browse-categories__placeholder_type_sport.css');
+@import url('../blocks/browse-categories/__placeholder/_type/browse-categories__placeholder_type_utility.css');
+@import url('../blocks/browse-categories/__placeholder/_type/browse-categories__placeholder_type_video.css');
+@import url('../blocks/browse-categories/__placeholder/_type/browse-categories__placeholder_type_virtual-worlds.css');
+@import url('../blocks/browse-categories/__category-name/browse-categories__category-name.css');
+
+/* ======= DISCOVER MORE NFTS STYLES ======= */
+
+@import url('../blocks/discover-more-nfts/__button/discover-more-nfts__button.css');
+@import url('../blocks/discover-more-nfts/__cards-list/discover-more-nfts__cards-list.css');
+@import url('../blocks/discover-more-nfts/__card/discover-more-nfts__card.css');
+@import url('../blocks/discover-more-nfts/__image/discover-more-nfts__image.css');
+@import url('../blocks/discover-more-nfts/__image-description/discover-more-nfts__image-description.css');
+@import url('../blocks/discover-more-nfts/__additional-info/discover-more-nfts__additional-info.css');
+@import url('../blocks/discover-more-nfts/__art-name/discover-more-nfts__art-name.css');
+@import url('../blocks/discover-more-nfts/__column/discover-more-nfts__column.css');
+@import url('../blocks/discover-more-nfts/__price-title/discover-more-nfts__price-title.css');
+@import url('../blocks/discover-more-nfts/__bid-title/discover-more-nfts__bid-title.css');
+@import url('../blocks/discover-more-nfts/__price/discover-more-nfts__price.css');
+@import url('../blocks/discover-more-nfts/__highest-bid/discover-more-nfts__highest-bid.css');
+@import url('../blocks/discover-more-nfts/__author-name/_type/discover-more-nfts__author-name_type_first.css');
+@import url('../blocks/discover-more-nfts/__author-name/_type/discover-more-nfts__author-name_type_second.css');
+@import url('../blocks/discover-more-nfts/__author-name/_type/discover-more-nfts__author-name_type_third.css');
+
+/* ======= MAGIC MASHROOMS STYLES ======= */
+
+@import url('../blocks/magic-mushrooms/magic-mashrooms.css');
+@import url('../blocks/magic-mushrooms/__left-column/magic-mashrooms__left-column.css');
+@import url('../blocks/magic-mushrooms/__authors-link/magic-mushrooms__authors-link.css');
+@import url('../blocks/magic-mushrooms/__title/magic-mashrooms__title.css');
+@import url('../blocks/magic-mushrooms/__button-style-link/magic-mashrooms__button-style-link.css');
+@import url('../blocks/magic-mushrooms/');
+@import url('../blocks/magic-mushrooms/');
+@import url('../blocks/magic-mushrooms/');
+@import url('../blocks/magic-mushrooms/');
+
 @import url('../blocks/');
 @import url('../blocks/');
 @import url('../blocks/');

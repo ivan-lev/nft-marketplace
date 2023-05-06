@@ -1,5 +1,7 @@
 .discover-digital-art__title {
+  max-width: 500px;
   margin: 0 0 20px 0;
+  text-transform: capitalize;
   font-weight: 600;
   font-size: 67px;
   line-height: 110%;
