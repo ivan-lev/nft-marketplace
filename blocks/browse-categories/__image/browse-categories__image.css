@@ -1,0 +1,9 @@
+.browse-categories__image {
+  width: 240px;
+  height: 240px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}

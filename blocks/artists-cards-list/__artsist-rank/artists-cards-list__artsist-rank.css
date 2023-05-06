@@ -1,0 +1,18 @@
+.artists-cards-list__artsist-rank {
+  width: 30px;
+  margin: 0;
+  position: absolute;
+  height: 30px;
+  left: 20px;
+  top: 18px;
+  background: #2b2b2b;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Space Mono';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #858584;
+}

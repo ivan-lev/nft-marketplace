@@ -1,0 +1,9 @@
+.artists-cards-list__artist-name {
+  margin: 0 0 5px 0;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 140%;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
