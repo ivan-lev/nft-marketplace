@@ -61,14 +61,16 @@
 
 /* ======= TOP CREATORS STYLES ======= */
 
+@import url('../blocks/top-creators/top-creators.css');
 @import url('../blocks/top-creators/__button/top-creators__button.css');
-@import url('../blocks/artists-cards-list/artists-cards-list.css');
-@import url('../blocks/artists-cards-list/__artist-card/artists-cards-list__artist-card.css');
-@import url('../blocks/artists-cards-list/__artsist-rank/artists-cards-list__artsist-rank.css');
-@import url('../blocks/artists-cards-list/__artist-avatar/artists-cards-list__artist-avatar.css');
-@import url('../blocks/artists-cards-list/__artist-avatar/_first-in-rank/artists-cards-list__artist-avatar_first-in-rank.css');
-@import url('../blocks/artists-cards-list/__artist-name/artists-cards-list__artist-name.css');
-@import url('../blocks/artists-cards-list/__artist-earnings/artists-cards-list__artist-earnings.css');
+@import url('../blocks/artists-cards/artists-cards.css');
+@import url('../blocks/artists-cards/__card/artists-cards__card.css');
+@import url('../blocks/artists-cards/__artsist-rank/artists-cards__artsist-rank.css');
+@import url('../blocks/artists-cards/__link/artists-cards__link.css');
+@import url('../blocks/artists-cards/__artist-avatar/artists-cards__artist-avatar.css');
+@import url('../blocks/artists-cards/__artist-avatar/_first-in-rank/artists-cards__artist-avatar_first-in-rank.css');
+@import url('../blocks/artists-cards/__artist-name/artists-cards__artist-name.css');
+@import url('../blocks/artists-cards/__artist-earnings/artists-cards__artist-earnings.css');
 
 /* ======= BROWSE CATEGORIES STYLES ======= */
 

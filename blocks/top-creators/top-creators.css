@@ -1,0 +1,6 @@
+@media screen and (max-width: 834px) {
+  .top-creators {
+    display: flex;
+    flex-direction: column;
+  }
+}

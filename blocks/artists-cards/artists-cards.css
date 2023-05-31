@@ -1,4 +1,4 @@
-.artists-cards-list {
+.artists-cards {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -6,4 +6,11 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 834px) {
+  .artists-cards {
+    flex-grow: 1;
+  }
 }
