@@ -4,3 +4,9 @@
   font-weight: 700;
   font-size: 28px;
 }
+
+@media screen and (max-width: 834px) {
+  .discover-digital-art__stats-data {
+    font-size: 22px;
+  }
+}

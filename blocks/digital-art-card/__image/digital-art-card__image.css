@@ -3,3 +3,11 @@
   max-height: 401px;
   object-fit: cover;
 }
+
+@media screen and (max-width: 834px) {
+  .digital-art-card__image {
+    max-height: 221px;
+    max-width: 330px;
+    width: 100%;
+  }
+}

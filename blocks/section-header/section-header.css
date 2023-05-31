@@ -1,3 +1,10 @@
 .section-header {
   padding-bottom: 60px;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 834px) {
+  .section-header {
+    padding-bottom: 40px;
+  }
 }

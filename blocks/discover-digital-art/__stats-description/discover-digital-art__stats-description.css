@@ -2,3 +2,9 @@
   font-size: 24px;
   margin: 0;
 }
+
+@media screen and (max-width: 834px) {
+  .discover-digital-art__stats-description {
+    font-size: 16px;
+  }
+}

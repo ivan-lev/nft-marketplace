@@ -5,3 +5,9 @@
   grid-template-rows: repeat(2, 1fr);
   column-gap: 25px;
 }
+
+@media screen and (max-width: 834px) {
+  .discover-digital-art__stats {
+    margin-top: 20px;
+  }
+}

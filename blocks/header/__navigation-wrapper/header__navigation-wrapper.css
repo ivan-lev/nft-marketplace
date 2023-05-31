@@ -1,0 +1,11 @@
+@media screen and (max-width: 834px) {
+  .header__navigation-wrapper {
+    width: 24px;
+    height: 24px;
+    background-image: url('../../../images/button-menu.svg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+  }
+}

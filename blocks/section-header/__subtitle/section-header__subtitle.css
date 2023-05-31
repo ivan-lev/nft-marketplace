@@ -1,6 +1,13 @@
 .section-header__subtitle {
   font-weight: 400;
   font-size: 22px;
-  line-height: 160%;
+  line-height: 35px;
   margin: 0;
+}
+
+@media screen and (max-width: 834px) {
+  .section-header__subtitle {
+    font-size: 16px;
+    line-height: 22px;
+  }
 }

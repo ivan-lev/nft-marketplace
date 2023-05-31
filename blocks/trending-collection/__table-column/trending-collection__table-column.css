@@ -6,3 +6,13 @@
   gap: 15px;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 834px) {
+  .trending-collection__table-column {
+    width: 100%;
+  }
+
+  .trending-collection__table-column:nth-child(3) {
+    display: none;
+  }
+}

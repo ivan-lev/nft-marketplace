@@ -27,6 +27,8 @@
 /* ======= HEADER STYLES ======= */
 
 @import url('../blocks/header/header.css');
+@import url('../blocks/header/__logo/header_logo.css');
+@import url('../blocks/header/__navigation-wrapper/header__navigation-wrapper.css');
 @import url('../blocks/header/__navigation/header__navigation.css');
 @import url('../blocks/header/__link/header__link.css');
 @import url('../blocks/header/__button/header__button.css');
@@ -39,9 +41,9 @@
 @import url('../blocks/discover-digital-art/__text/discover-digital-art__text.css');
 @import url('../blocks/discover-digital-art/__button/discover-digital-art__button.css');
 @import url('../blocks/discover-digital-art/__stats/discover-digital-art__stats.css');
-@import url('../blocks/discover-digital-art/__card/discover-digital-art__card.css');
 @import url('../blocks/discover-digital-art/__stats-data/discover-digital-art__stats-data.css');
 @import url('../blocks/discover-digital-art/__stats-description/discover-digital-art__stats-description.css');
+@import url('../blocks/discover-digital-art/__card/discover-digital-art__card.css');
 @import url('../blocks/discover-digital-art/__author-name/discover-digital-art__author-name.css');
 
 /* ======= TRENDING=COLLECTION STYLES ======= */

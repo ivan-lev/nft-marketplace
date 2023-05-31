@@ -2,6 +2,13 @@
   text-transform: capitalize;
   font-weight: 600;
   font-size: 38px;
-  line-height: 120%;
+  line-height: 46px;
   margin: 0 0 10px 0;
+}
+
+@media screen and (max-width: 834px) {
+  .section-header__title {
+    font-size: 28px;
+    line-height: 39px;
+  }
 }

@@ -1,3 +1,7 @@
+.top-creators__button {
+  flex-shrink: 0;
+}
+
 .top-creators__button:before {
   content: url('../../../images/button-rocket-violet.svg');
   line-height: 0;
