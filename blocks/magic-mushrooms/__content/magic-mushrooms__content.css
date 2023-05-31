@@ -1,0 +1,7 @@
+.magic-mushrooms__content {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: end;
+  flex-grow: 1;
+}

@@ -76,8 +76,8 @@
 
 @import url('../blocks/browse-categories/__title/browse-categories__title.css');
 @import url('../blocks/browse-categories/__list/browse-categories__list.css');
-@import url('../blocks/browse-categories/__category-card/browse-categories__category-card.css');
-@import url('../blocks/browse-categories/__category-link/browse-categories__category-link.css');
+@import url('../blocks/browse-categories/__card/browse-categories__card.css');
+@import url('../blocks/browse-categories/__link/browse-categories__link.css');
 @import url('../blocks/browse-categories/__image/browse-categories__image.css');
 @import url('../blocks/browse-categories/__icon/browse-categories__icon.css');
 @import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_art.css');
@@ -117,13 +117,14 @@
 @import url('../blocks/discover-more-nfts/__author-name/_type/discover-more-nfts__author-name_type_second.css');
 @import url('../blocks/discover-more-nfts/__author-name/_type/discover-more-nfts__author-name_type_third.css');
 
-/* ======= MAGIC MASHROOMS STYLES ======= */
+/* ======= MAGIC MUSHROOMS STYLES ======= */
 
-@import url('../blocks/magic-mushrooms/magic-mashrooms.css');
-@import url('../blocks/magic-mushrooms/__left-column/magic-mashrooms__left-column.css');
+@import url('../blocks/magic-mushrooms/magic-mushrooms.css');
+@import url('../blocks/magic-mushrooms/__content/magic-mushrooms__content.css');
+@import url('../blocks/magic-mushrooms/__left-column/magic-mushrooms__left-column.css');
 @import url('../blocks/magic-mushrooms/__authors-link/magic-mushrooms__authors-link.css');
-@import url('../blocks/magic-mushrooms/__title/magic-mashrooms__title.css');
-@import url('../blocks/magic-mushrooms/__button-style-link/magic-mashrooms__button-style-link.css');
+@import url('../blocks/magic-mushrooms/__title/magic-mushrooms__title.css');
+@import url('../blocks/magic-mushrooms/__button-style-link/magic-mushrooms__button-style-link.css');
 
 /* ======= COUNTER STYLES ======= */
 

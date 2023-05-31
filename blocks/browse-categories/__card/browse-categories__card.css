@@ -1,5 +1,5 @@
-.browse-categories__category-card {
-  width: 240px;
+.browse-categories__card {
+  width: calc(100% / 4 - 23px);
   height: 316px;
   background: #3b3b3b;
   border-radius: 20px;
