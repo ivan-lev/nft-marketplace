@@ -1,0 +1,7 @@
+.counter__digits {
+  font-weight: 700;
+  font-size: 38px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 100%;
+}

@@ -120,30 +120,52 @@
 @import url('../blocks/magic-mushrooms/__authors-link/magic-mushrooms__authors-link.css');
 @import url('../blocks/magic-mushrooms/__title/magic-mashrooms__title.css');
 @import url('../blocks/magic-mushrooms/__button-style-link/magic-mashrooms__button-style-link.css');
-@import url('../blocks/magic-mushrooms/');
-@import url('../blocks/magic-mushrooms/');
-@import url('../blocks/magic-mushrooms/');
-@import url('../blocks/magic-mushrooms/');
 
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
-@import url('../blocks/');
+/* ======= COUNTER STYLES ======= */
+
+@import url('../blocks/counter/counter.css');
+@import url('../blocks/counter/__digits/counter__digits.css');
+@import url('../blocks/counter/__divider/counter__divider.css');
+@import url('../blocks/counter/__explanation-word/counter__explanation-word.css');
+@import url('../blocks/counter/__explanation/counter__explanation.css');
+@import url('../blocks/counter/__title/counter__title.css');
+
+/* ======= HOW IT WORKS STYLES ======= */
+@import url('../blocks/how-it-works/__header/how-it-works__header.css');
+@import url('../blocks/how-it-works/__cards-list/how-it-works__cards-list.css');
+@import url('../blocks/how-it-works/__card/how-it-works__card.css');
+@import url('../blocks/how-it-works/__card-image/how-it-works__card-image.css');
+@import url('../blocks/how-it-works/__card-title/how-it-works__card-title.css');
+@import url('../blocks/how-it-works/__card-text/how-it-works__card-text.css');
+
+/* ===== JOIN OUR WEEKLY DIGEST STYLES ===== */
+
+@import url('../blocks/join-digest/join-digest.css');
+@import url('../blocks/join-digest/__wrapper/join-digest__wrapper.css');
+@import url('../blocks/join-digest/__image/join-digest__image.css');
+@import url('../blocks/join-digest/__content/join-digest__content.css');
+@import url('../blocks/join-digest/__header/join-digest__header.css');
+
+/* ===== SUBSCRIBE FORM STYLES ===== */
+
+@import url('../blocks/subscribe-form/subscribe-form.css');
+@import url('../blocks/subscribe-form/__email/subscribe-form__email.css');
+@import url('../blocks/subscribe-form/__submit-button/subscribe-form__submit-button.css');
+
+/* ===== FOOTER STYLES ===== */
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__info/footer__info.css');
+@import url('../blocks/footer/__info-section/footer__info-section.css');
+@import url('../blocks/footer/__text/footer__text.css');
+@import url('../blocks/footer/__social-links/footer__social-links.css');
+@import url('../blocks/footer/__social-logo/footer__social-logo.css');
+@import url('../blocks/footer/__social-logo/_type/footer__social-logo_type_discord.css');
+@import url('../blocks/footer/__social-logo/_type/footer__social-logo_type_instagram.css');
+@import url('../blocks/footer/__social-logo/_type/footer__social-logo_type_twitter.css');
+@import url('../blocks/footer/__social-logo/_type/footer__social-logo_type_youtube.css');
+@import url('../blocks/footer/__text_bold/footer__text_bold.css');
+@import url('../blocks/footer/__link/footer__link.css');
+@import url('../blocks/footer/__subscribe-form/footer__subscribe-form.css');
+@import url('../blocks/footer/__divider/footer__divider.css');
+@import url('../blocks/footer/__copyright/footer__copyright.css');

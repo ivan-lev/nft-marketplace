@@ -1,0 +1,12 @@
+.footer__info-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__info-section:first-child {
+  max-width: 245px;
+}
+
+.footer__info-section:last-child {
+  max-width: 420px;
+}

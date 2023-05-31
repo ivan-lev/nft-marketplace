@@ -1,0 +1,5 @@
+.counter__explanation {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}

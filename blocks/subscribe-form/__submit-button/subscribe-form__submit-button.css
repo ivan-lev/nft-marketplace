@@ -1,0 +1,27 @@
+.subscribe-form__submit-button {
+  height: 60px;
+  border: 0;
+  border-radius: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #a259ff;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 140%;
+  color: #ffffff;
+  cursor: pointer;
+  padding: 0 50px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.subscribe-form__submit-button:before {
+  content: url('../images/button-letter.svg');
+  line-height: 0;
+  margin-right: 12px;
+}

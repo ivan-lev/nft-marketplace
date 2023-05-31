@@ -1,0 +1,11 @@
+.how-it-works__card {
+  width: calc(calc(100% - 60px) / 3);
+  background-color: #3b3b3b;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px 30px 30px;
+  box-sizing: border-box;
+}

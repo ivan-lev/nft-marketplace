@@ -1,0 +1,11 @@
+.counter__explanation-word {
+  width: 33.33%;
+}
+
+.counter__explanation-word:first-child {
+  text-align: left;
+}
+
+.counter__explanation-word:last-child {
+  text-align: right;
+}
