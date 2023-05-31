@@ -21,6 +21,6 @@
   margin-right: 12px;
   border-radius: 50%;
   content: '';
-  background-image: url('../images/user-shroomie.jpg');
+  background-image: url('../../../images/user-shroomie.jpg');
   background-size: contain;
 }
