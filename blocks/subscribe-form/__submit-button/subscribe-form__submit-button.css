@@ -21,7 +21,7 @@
 }
 
 .subscribe-form__submit-button:before {
-  content: url('../images/button-letter.svg');
+  content: url('../../../images/button-letter.svg');
   line-height: 0;
   margin-right: 12px;
 }
