@@ -143,6 +143,12 @@
 @import url('../blocks/how-it-works/__card-title/how-it-works__card-title.css');
 @import url('../blocks/how-it-works/__card-text/how-it-works__card-text.css');
 
+/* ===== SUBSCRIBE FORM STYLES ===== */
+
+@import url('../blocks/subscribe-form/subscribe-form.css');
+@import url('../blocks/subscribe-form/__email/subscribe-form__email.css');
+@import url('../blocks/subscribe-form/__submit-button/subscribe-form__submit-button.css');
+
 /* ===== JOIN OUR WEEKLY DIGEST STYLES ===== */
 
 @import url('../blocks/join-digest/join-digest.css');
@@ -150,12 +156,11 @@
 @import url('../blocks/join-digest/__image/join-digest__image.css');
 @import url('../blocks/join-digest/__content/join-digest__content.css');
 @import url('../blocks/join-digest/__header/join-digest__header.css');
-
-/* ===== SUBSCRIBE FORM STYLES ===== */
-
-@import url('../blocks/subscribe-form/subscribe-form.css');
-@import url('../blocks/subscribe-form/__email/subscribe-form__email.css');
-@import url('../blocks/subscribe-form/__submit-button/subscribe-form__submit-button.css');
+@import url('../blocks/join-digest/__title/join-digest__title.css');
+@import url('../blocks/join-digest/__subtitle/join-digest__subtitle.css');
+@import url('../blocks/join-digest/__subscribe-form/join-digest__subscribe-form.css');
+@import url('../blocks/join-digest/__subscribe-email/join-digest__subscribe-email.css');
+@import url('../blocks/join-digest/__submit-button/join-digest__submit-buttom.css');
 
 /* ===== FOOTER STYLES ===== */
 

@@ -4,3 +4,10 @@
   line-height: 140%;
   margin: 0;
 }
+
+@media screen and (max-width: 834px) {
+  .how-it-works__card-text {
+    font-size: 12px;
+    line-height: 17px;
+  }
+}

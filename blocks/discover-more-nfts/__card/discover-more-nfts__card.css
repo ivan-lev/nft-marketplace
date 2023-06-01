@@ -1,4 +1,14 @@
 .discover-more-nfts__card {
-  width: 33% !important;
+  width: 33%;
   filter: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .discover-more-nfts__card {
+    width: calc(50% - 15px);
+  }
+
+  .discover-more-nfts__card:nth-child(n + 3) {
+    display: none;
+  }
 }

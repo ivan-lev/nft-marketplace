@@ -1,6 +1,6 @@
 .browse-categories__card {
   width: calc(100% / 4 - 23px);
-  height: 316px;
+  min-height: 316px;
   background: #3b3b3b;
   border-radius: 20px;
   overflow: hidden;
@@ -9,4 +9,10 @@
   gap: 20px;
   padding: 0 0 25px 0;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 834px) {
+  .browse-categories__card {
+    min-height: 231px;
+  }
 }

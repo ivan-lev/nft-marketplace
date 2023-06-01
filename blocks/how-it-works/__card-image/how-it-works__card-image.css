@@ -3,3 +3,10 @@
   height: 250px;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 834px) {
+  .how-it-works__card-image {
+    width: 160px;
+    height: 160px;
+  }
+}

@@ -4,3 +4,10 @@
   object-fit: cover;
   border-radius: 20px;
 }
+
+@media screen and (max-width: 834px) {
+  .join-digest__image {
+    width: 300px;
+    height: 280px;
+  }
+}

@@ -9,3 +9,11 @@
   color: #fff;
   text-decoration: none;
 }
+
+@media screen and (max-width: 834px) {
+  .browse-categories__category-name {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 20px 0;
+  }
+}

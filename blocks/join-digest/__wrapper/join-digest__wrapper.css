@@ -5,4 +5,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 30px;
+}
+
+@media screen and (max-width: 834px) {
+  .join-digest__wrapper {
+    padding: 40px 30px;
+  }
 }
