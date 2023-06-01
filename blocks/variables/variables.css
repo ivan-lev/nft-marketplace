@@ -1,0 +1,28 @@
+/*
+
+space mono regular
+space mono bold
+work sans regular
+work sans semibold
+
+*/
+
+
+/* :root {
+    /* кастомные свойства палитры */
+    --color-dark: #1e1e1e;
+    --color-black: #000;
+    --color-light: #dde4fd;
+    --color-white: #fff;
+    /* кастомные свойства, которые будем использовать для темизации */
+    --bg-color: var(--color-dark);
+    --text-color: var(--color-white);
+
+--font-main-reg: var(--color-white);
+--font-main-bold: var(--color-white);
+--font-additional-reg: var(--color-white);
+--font-additional-bold: var(--color-white);
+--text-color-main: var(--color-white);
+--text-color-additional: var(--color-gray);
+
+}
