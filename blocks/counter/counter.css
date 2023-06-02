@@ -1,4 +1,5 @@
 .counter {
+  max-width: 295px;
   box-sizing: border-box;
   padding: 30px;
   border-radius: 20px;
@@ -13,4 +14,11 @@
   gap: 10px;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
+  grid-area: counter;
+}
+
+@media screen and (max-width: 650px) {
+  .counter {
+    grid-area: unset;
+  }
 }
