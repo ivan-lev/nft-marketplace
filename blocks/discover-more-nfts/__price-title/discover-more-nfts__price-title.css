@@ -1,8 +1,8 @@
 .discover-more-nfts__price-title {
   margin: 0;
-  font-family: 'Space Mono';
+  font-family: var(--font-minor);
+  color: var(--color-light);
   font-weight: 400;
   font-size: 12px;
-  line-height: 110%;
-  color: #858584;
+  line-height: 13px;
 }

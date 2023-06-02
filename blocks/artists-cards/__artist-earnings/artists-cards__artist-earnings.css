@@ -1,6 +1,6 @@
 .artists-cards__artist-earnings {
   margin: 0;
-  font-family: 'Space Mono';
+  font-family: var(--font-minor);
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
@@ -8,6 +8,6 @@
 
 .artists-cards__artist-earnings:before {
   content: 'Total Sales: ';
-  font-family: 'Work Sans';
-  color: #858584;
+  font-family: var(--font-main);
+  color: var(--color-light);
 }

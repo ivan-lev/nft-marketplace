@@ -3,7 +3,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #ccc;
+  color: var(--color-silver);
   text-decoration: none;
 }
 

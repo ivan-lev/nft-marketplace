@@ -1,5 +1,5 @@
 .join-digest__wrapper {
-  background-color: #3b3b3b;
+  background-color: var(--color-medium);
   border-radius: 20px;
   padding: 60px;
   display: flex;

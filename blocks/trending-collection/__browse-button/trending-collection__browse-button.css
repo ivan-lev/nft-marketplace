@@ -4,5 +4,5 @@
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  background: #a259ff;
+  background: var(--color-lavender);
 }

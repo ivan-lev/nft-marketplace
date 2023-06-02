@@ -6,13 +6,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #a259ff;
-  font-family: 'Work Sans';
+  background-color: var(--color-lavender);
+  font-family: var(--font-main);
+  color: var(--color-white);
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
-  line-height: 140%;
-  color: #ffffff;
+  line-height: 22px;
   cursor: pointer;
   padding: 0 50px;
   position: absolute;

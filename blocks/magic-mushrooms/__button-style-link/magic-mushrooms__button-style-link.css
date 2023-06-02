@@ -1,6 +1,6 @@
 .magic-mushrooms__button-style-link {
-  background-color: #fff;
-  color: #2b2b2b;
+  background-color: var(--color-white);
+  color: var(--color-dark);
 }
 
 .magic-mushrooms__button-style-link:before {

@@ -3,7 +3,7 @@
   font-weight: 600;
   font-size: 22px;
   line-height: 1;
-  color: #ffffff;
+  color: var(--color-white);
   text-decoration: none;
   text-transform: capitalize;
 }

@@ -1,6 +1,7 @@
 .discover-more-nfts__card {
   width: 33%;
   filter: none;
+  -webkit-filter: none;
 }
 
 @media screen and (max-width: 1024px) {

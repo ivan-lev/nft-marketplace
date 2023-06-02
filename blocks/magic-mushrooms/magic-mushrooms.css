@@ -2,12 +2,13 @@
   padding-bottom: 60px;
   min-height: 640px;
   box-sizing: border-box;
-  background-image: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, #a259ff 100%),
+  background-image: linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, var(--color-lavender) 100%),
     url('../../images/magic-mushrooms__background.jpg');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
   object-fit: contain;
+  -o-object-fit: contain;
   display: flex;
   align-items: end;
 }

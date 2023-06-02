@@ -1,0 +1,20 @@
+/* COLOR PALLETE */
+.theme {
+  --color-dark: #2b2b2b;
+  --color-medium: #3b3b3b;
+  --color-light: #858584;
+  --color-silver: #cccccc;
+  --color-white: #ffffff;
+  --color-lavender: #a259ff;
+
+  /* COLOR VARIABLES */
+
+  --bg-color: var(--color-dark);
+  --text-color-main: var(--color-white);
+  --text-color-minor: var(--color-light);
+
+  /* USED FONTS */
+
+  --font-main: 'Work Sans', 'Roboto', 'Helvetica', 'Open Sans', sans-serif;
+  --font-minor: 'Space Mono', 'Courier, ' monospace;
+}

@@ -3,7 +3,7 @@
   padding: 30px;
   border-radius: 20px;
   background: rgba(59, 59, 59, 0.5);
-  font-family: 'Space Mono';
+  font-family: var(--font-minor);
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -11,5 +11,6 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
 }

@@ -4,9 +4,5 @@
   background-repeat: no-repeat;
   background-position: center;
   backdrop-filter: blur(7.5px);
-  /* position: absolute;
-  top: 0;
-  left: 0;
-  background-size: contain;
-  filter: blur(7.5px); */
+  -webkit-backdrop-filter: blur(7.5px);
 }

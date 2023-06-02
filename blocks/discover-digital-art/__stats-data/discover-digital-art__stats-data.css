@@ -1,6 +1,6 @@
 .discover-digital-art__stats-data {
   margin: 0;
-  font-family: 'Space Mono', monospace;
+  font-family: var(--text-color-minor);
   font-weight: 700;
   font-size: 28px;
 }

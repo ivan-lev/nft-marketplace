@@ -1,6 +1,6 @@
 .how-it-works__card {
   width: calc(calc(100% - 60px) / 3);
-  background-color: #3b3b3b;
+  background-color: var(--color-medium);
   border-radius: 20px;
   display: flex;
   flex-direction: column;

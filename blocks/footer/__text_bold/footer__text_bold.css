@@ -1,5 +1,5 @@
 .footer__text_bold {
-  font-family: 'Space Mono';
+  font-family: var(--font-minor);
   font-weight: 700;
   font-size: 22px;
   line-height: 35px;

@@ -1,9 +1,11 @@
 /* ======= VENDOR STYLES ======= */
 
 @import url('../vendor/fonts.css');
+@import url('../vendor/normalize.css');
 
-/* ======= ROOT STYLES ======= */
+/* ======= ROOT STYLES AND VARIABLES======= */
 
+@import url('../blocks/theme/theme.css');
 @import url('../blocks/root/root.css');
 
 /* ======= COMMON BLOCKS STYLES ======= */

@@ -1,12 +1,14 @@
 .browse-categories__category-name {
   max-width: fit-content;
-  background: #3b3b3b;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  background: var(--color-medium);
   margin: 0;
   margin-left: 30px;
   font-weight: 600;
   font-size: 22px;
   line-height: 140%;
-  color: #fff;
+  color: var(--color-white);
   text-decoration: none;
 }
 

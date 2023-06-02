@@ -7,12 +7,12 @@
 }
 
 .subscribe-form__email[placeholder] {
-  font-family: 'Work Sans';
+  font-family: var(--font-main);
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 140%;
-  color: #2b2b2b;
+  color: var(--color-dark);
 }
 
 .subscribe-form__email[placeholder]:focus-visible {

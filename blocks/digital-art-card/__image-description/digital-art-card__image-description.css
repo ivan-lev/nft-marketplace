@@ -1,4 +1,4 @@
 .digital-art-card__image-description {
-  background: #3b3b3b;
+  background: var(--color-medium);
   padding: 22px 20px;
 }

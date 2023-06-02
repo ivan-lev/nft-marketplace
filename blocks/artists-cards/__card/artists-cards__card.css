@@ -1,7 +1,7 @@
 .artists-cards__card {
   width: 240px;
   padding: 20px 0;
-  background: #3b3b3b;
+  background: var(--color-medium);
   border-radius: 20px;
   display: flex;
   flex-direction: column;
