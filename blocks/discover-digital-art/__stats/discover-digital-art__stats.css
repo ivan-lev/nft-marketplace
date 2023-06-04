@@ -12,3 +12,9 @@
     margin-top: 20px;
   }
 }
+
+@media screen and (max-width: 834px) {
+  .discover-digital-art__stats {
+    grid-area: stats;
+  }
+}

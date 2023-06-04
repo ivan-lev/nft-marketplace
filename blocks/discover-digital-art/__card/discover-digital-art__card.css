@@ -1,12 +1,19 @@
 .discover-digital-art__card {
-  width: calc(50% - 15px);
+  height: fit-content;
+  grid-area: card;
 }
 
 @media screen and (max-width: 834px) {
-  .digital-art-card {
+  .discover-digital-art__card {
     max-width: 330px;
-    border-radius: 20px;
     overflow: hidden;
     line-height: 0;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .discover-digital-art__card {
+    grid-area: unset;
+    margin-bottom: 20px;
   }
 }

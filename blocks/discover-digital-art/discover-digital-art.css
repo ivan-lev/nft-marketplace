@@ -1,11 +1,24 @@
 .discover-digital-art {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr calc(50% - 15px);
+  gap: 15px 30px;
   justify-content: space-between;
-  align-items: flex-start;
+  grid-template-areas:
+    '. card'
+    '. card'
+    '. card'
+    '. card';
 }
 
 @media screen and (max-width: 375px) {
   .discover-digital-art {
-    flex-direction: column;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    grid-template-areas:
+      'title'
+      'text'
+      'image'
+      'button'
+      'stats';
   }
 }
