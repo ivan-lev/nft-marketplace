@@ -15,6 +15,7 @@
 
 @media screen and (max-width: 425px) {
   .digital-art-card__image {
+    max-width: 100%;
     max-height: 206px;
     grid-area: image;
   }
