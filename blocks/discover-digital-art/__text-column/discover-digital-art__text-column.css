@@ -1,3 +1,9 @@
 .discover-digital-art__text-column {
   width: calc(50% - 15px);
 }
+
+@media screen and (max-width: 375px) {
+  .discover-digital-art__text-column {
+    width: unset;
+  }
+}
