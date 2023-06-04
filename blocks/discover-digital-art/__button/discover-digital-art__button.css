@@ -4,7 +4,7 @@
   margin-right: 14px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 412px) {
   .discover-digital-art__button {
     grid-area: button;
   }

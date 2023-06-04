@@ -2,7 +2,7 @@
   width: 420px;
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 412px) {
   .join-digest__content {
     width: unset;
   }

@@ -11,7 +11,7 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 412px) {
   .how-it-works__card-image {
     width: 100px;
     height: auto;

@@ -15,7 +15,7 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 412px) {
   .artists-cards {
     flex-direction: column;
   }

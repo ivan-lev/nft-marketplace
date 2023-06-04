@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 412px) {
   .browse-categories__card {
     width: calc(100% / 2 - 10px);
   }
