@@ -10,7 +10,7 @@
     '. card';
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
   .discover-digital-art {
     grid-template-columns: 1fr;
     gap: 20px;

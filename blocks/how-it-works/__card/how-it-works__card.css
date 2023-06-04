@@ -9,3 +9,10 @@
   padding: 10px 30px 30px;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 390px) {
+  .how-it-works__card {
+    flex-direction: row;
+    width: unset;
+  }
+}

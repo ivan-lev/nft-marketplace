@@ -12,7 +12,13 @@
     width: 100%;
   }
 
-  .trending-collection__table-column:nth-child(3) {
+  .trending-collection__table-column:nth-child(n + 3) {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .trending-collection__table-column:nth-child(n + 2) {
     display: none;
   }
 }

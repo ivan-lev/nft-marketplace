@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
   .join-digest__wrapper {
     flex-direction: column;
   }

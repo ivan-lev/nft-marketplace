@@ -4,3 +4,9 @@
   flex-wrap: wrap;
   gap: 30px;
 }
+
+@media screen and (max-width: 390px) {
+  .browse-categories__list {
+    gap: 20px;
+  }
+}

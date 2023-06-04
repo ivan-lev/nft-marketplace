@@ -16,3 +16,9 @@
     min-height: 231px;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .browse-categories__card {
+    width: calc(100% / 2 - 10px);
+  }
+}

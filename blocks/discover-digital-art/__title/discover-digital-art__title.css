@@ -14,7 +14,7 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 390px) {
   .discover-digital-art__title {
     grid-area: title;
   }

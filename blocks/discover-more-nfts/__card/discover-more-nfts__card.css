@@ -13,3 +13,13 @@
     display: none;
   }
 }
+
+@media screen and (max-width: 390px) {
+  .discover-more-nfts__card {
+    width: unset;
+  }
+
+  .discover-more-nfts__card:nth-child(n + 3) {
+    display: unset;
+  }
+}
