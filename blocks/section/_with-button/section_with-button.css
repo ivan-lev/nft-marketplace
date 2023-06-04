@@ -1,0 +1,33 @@
+.section_with-button {
+  grid-template-columns: 1fr 250px;
+  column-gap: 20px;
+  justify-content: space-around;
+  grid-template-areas:
+    'heading button'
+    'content content';
+}
+
+@media screen and (max-width: 425px) {
+  .section_with-button {
+    padding: 40px 30px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      'heading'
+      'content'
+      'button';
+  }
+}
+
+/* .section_with-button {
+  grid-template-columns: 1fr 250px;
+  column-gap: 20px;
+  justify-content: space-around;
+  grid-template-areas:
+    'heading button'
+    'content content';
+}
+
+@media screen and (max-width: 834px) {
+  .section_with-button {
+  }
+} */

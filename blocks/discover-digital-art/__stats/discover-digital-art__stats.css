@@ -1,20 +1,21 @@
 .discover-digital-art__stats {
-  margin-top: 30px;
+  margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
   -moz-column-gap: 25px;
-  column-gap: 25px;
+  column-gap: 20px;
+  row-gap: 10px;
 }
 
 @media screen and (max-width: 834px) {
   .discover-digital-art__stats {
-    margin-top: 20px;
+    margin-top: 0px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .discover-digital-art__stats {
-    grid-area: stats;
+    grid-area: content;
   }
 }

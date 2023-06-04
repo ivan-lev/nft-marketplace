@@ -12,3 +12,10 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .digital-art-card__image {
+    max-height: 206px;
+    grid-area: image;
+  }
+}

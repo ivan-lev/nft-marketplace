@@ -3,6 +3,7 @@
   font-size: 22px;
   line-height: 35px;
   margin: 0;
+  text-transform: capitalize;
 }
 
 @media screen and (max-width: 834px) {

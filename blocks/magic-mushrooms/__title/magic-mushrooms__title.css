@@ -3,9 +3,15 @@
   margin: 0;
 }
 
-@media screen and (max-width: 832px) {
+@media screen and (max-width: 834px) {
   .magic-mushrooms__title {
     font-size: 38px;
     line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .magic-mushrooms__title {
+    grid-area: heading;
   }
 }

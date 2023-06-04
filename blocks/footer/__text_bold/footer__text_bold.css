@@ -4,4 +4,11 @@
   font-size: 22px;
   line-height: 35px;
   margin: 0;
+  margin-bottom: 25px;
+}
+
+@media screen and (max-width: 834px) {
+  .footer__text_bold {
+    margin-bottom: 20px;
+  }
 }

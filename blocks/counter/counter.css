@@ -19,6 +19,7 @@
 
 @media screen and (max-width: 650px) {
   .counter {
-    grid-area: unset;
+    grid-area: counter;
+    max-width: 100%;
   }
 }

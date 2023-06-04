@@ -3,3 +3,9 @@
   height: 1px;
   background-color: var(--color-light);
 }
+
+@media screen and (max-width: 834px) {
+  .footer__divider {
+    margin: 50px 0 20px;
+  }
+}

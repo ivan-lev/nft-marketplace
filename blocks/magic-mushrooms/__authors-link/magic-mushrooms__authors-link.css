@@ -26,3 +26,10 @@
   background-image: url('../../../images/user-shroomie.jpg');
   background-size: contain;
 }
+
+@media screen and (max-width: 650px) {
+  .magic-mushrooms__authors-link {
+    grid-area: link;
+    grid-template-columns: 1fr;
+  }
+}

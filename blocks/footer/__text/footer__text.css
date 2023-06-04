@@ -2,9 +2,9 @@
   font-size: 16px;
   line-height: 22px;
   color: var(--color-silver);
-  margin: 20px 0 0;
+  margin: 0 0 20px 0;
 }
 
 .footer__text:first-child {
-  margin-top: 25px;
+  margin-bottom: 25px;
 }

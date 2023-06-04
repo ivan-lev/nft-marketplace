@@ -4,10 +4,12 @@
   list-style-type: none;
   display: flex;
   gap: 30px;
+  grid-area: content;
 }
 
 @media screen and (max-width: 425px) {
   .discover-more-nfts__cards-list {
     flex-direction: column;
+    grid-area: content;
   }
 }

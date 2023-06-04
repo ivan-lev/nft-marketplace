@@ -16,6 +16,8 @@
 
 @media screen and (max-width: 425px) {
   .discover-digital-art__title {
+    font-size: 28px;
+    line-height: 39px;
     grid-area: title;
   }
 }

@@ -7,3 +7,10 @@
 .magic-mushrooms__button-style-link:before {
   content: url('../../../images/button-eye.svg');
 }
+
+@media screen and (max-width: 650px) {
+  .magic-mushrooms__button-style-link {
+    grid-area: button;
+    width: 100%;
+  }
+}

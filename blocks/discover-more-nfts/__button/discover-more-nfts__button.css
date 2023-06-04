@@ -3,3 +3,10 @@
   line-height: 0;
   margin-right: 14px;
 }
+
+@media screen and (max-width: 425px) {
+  .discover-more-nfts__button {
+    grid-area: button;
+    width: 100%;
+  }
+}

@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./pages/index.min.css" />
-    <link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon.svg" />
     <title>NFT Marketplace</title>
   </head>
   <body class="theme root">
     <!-- HEADER SECTION -->
 
-    <header class="header">
+    <header class="section header">
       <a href="#" class="logo header__logo"></a>
       <div class="header__navigation-wrapper">
         <nav class="header__navigation">
@@ -26,12 +26,15 @@
     <main class="content">
       <!-- DISCOVER DIGITAL ARTS SECTION -->
 
-      <section class="section discover-digital-art">
-        <h1 class="discover-digital-art__title">Discover digital art & Collect NFTs</h1>
-        <p class="discover-digital-art__text">
-          NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more than
-          20k NFT artists.
-        </p>
+      <section class="section discover-digital-art section_with-button">
+        <div class="section-header">
+          <h1 class="discover-digital-art__title">Discover digital art & Collect NFTs</h1>
+          <p class="discover-digital-art__text">
+            NFT marketplace UI created with Anima for Figma. Collect, buy and sell art from more
+            than 20k NFT artists.
+          </p>
+        </div>
+
         <a href="#" class="button-style-link discover-digital-art__button">Get Started</a>
         <div class="discover-digital-art__stats">
           <p class="discover-digital-art__stats-data">240k+</p>
@@ -169,21 +172,18 @@
 
       <!-- TOP CREATORS SECTION -->
 
-      <section class="section top-creators">
-        <div class="section-header section-header_type_with-button">
-          <div>
-            <h2 class="section-header__title">Top Creators</h2>
-            <p class="section-header__subtitle">
-              Checkout Top Rated Creators on the NFT Marketplace
-            </p>
-          </div>
-          <a
-            href="#"
-            class="button-style-link button-style-link_background_transparent top-creators__button"
-          >
-            View Rankings
-          </a>
+      <section class="section section_with-button top-creators">
+        <div class="section-header top-creators__heading">
+          <h2 class="section-header__title">Top Creators</h2>
+          <p class="section-header__subtitle">Checkout Top Rated Creators on the NFT Marketplace</p>
         </div>
+        <a
+          href="#"
+          class="button-style-link button-style-link_background_transparent top-creators__button"
+        >
+          View Rankings
+        </a>
+
         <ul class="artists-cards">
           <li class="artists-cards__card">
             <a href="#" class="artists-cards__link"
@@ -382,19 +382,17 @@
 
       <!-- DISCOVER MORE NFTS SECTION -->
 
-      <section class="section discover-more-nfts">
-        <div class="section-header section-header_type_with-button">
-          <div>
-            <h2 class="section-header__title">Discover More NFTs</h2>
-            <p class="section-header__subtitle">Explore new trending NFTs</p>
-          </div>
-          <a
-            href="#"
-            class="button-style-link button-style-link_background_transparent discover-more-nfts__button"
-          >
-            See All
-          </a>
+      <section class="section section_with-button discover-more-nfts">
+        <div class="section-header">
+          <h2 class="section-header__title">Discover More NFTs</h2>
+          <p class="section-header__subtitle">Explore new trending NFTs</p>
         </div>
+        <a
+          href="#"
+          class="button-style-link button-style-link_background_transparent discover-more-nfts__button"
+        >
+          See All
+        </a>
 
         <ul class="discover-more-nfts__cards-list">
           <li class="digital-art-card discover-more-nfts__card">
@@ -598,36 +596,42 @@
         </div>
       </section>
     </main>
-    <footer class="footer section">
-      <div class="footer__info">
-        <div class="footer__info-section">
-          <a href="#" class="logo"></a>
-          <p class="footer__text">NFT marketplace UI created with Anima for Figma.</p>
-          <p class="footer__text">Join our community</p>
-          <div class="footer__social-links">
-            <a href="#" class="footer__social-logo footer__social-logo_type_discord"></a>
-            <a href="#" class="footer__social-logo footer__social-logo_type_youtube"></a>
-            <a href="#" class="footer__social-logo footer__social-logo_type_twitter"></a>
-            <a href="#" class="footer__social-logo footer__social-logo_type_instagram"></a>
+    <footer class="footer">
+      <div class="section footer__section">
+        <div class="footer__info">
+          <div class="footer__info-section">
+            <a href="#" class="logo footer__logo"></a>
+            <p class="footer__text">NFT marketplace UI created with Anima for Figma.</p>
+            <p class="footer__text">Join our community</p>
+            <div class="footer__social-links">
+              <a href="#" class="footer__social-logo footer__social-logo_type_discord"></a>
+              <a href="#" class="footer__social-logo footer__social-logo_type_youtube"></a>
+              <a href="#" class="footer__social-logo footer__social-logo_type_twitter"></a>
+              <a href="#" class="footer__social-logo footer__social-logo_type_instagram"></a>
+            </div>
+          </div>
+          <div class="footer__info-section">
+            <p class="footer__text_bold">Explore</p>
+            <a href="#" class="footer__link">Marketplace</a>
+            <a href="#" class="footer__link">Rankings</a>
+            <a href="#" class="footer__link">Connect a wallet</a>
+          </div>
+          <div class="footer__info-section">
+            <p class="footer__text_bold">Join our weekly digest</p>
+            <p class="footer__text">Get exclusive promotions & updates straight to your inbox.</p>
+            <form action="subscribe" class="subscribe-form footer__subscribe-form">
+              <input
+                type="email"
+                placeholder="Enter your email here"
+                class="subscribe-form__email"
+              />
+              <button type="submit" class="subscribe-form__submit-button">Subscribe</button>
+            </form>
           </div>
         </div>
-        <div class="footer__info-section">
-          <p class="footer__text_bold">Explore</p>
-          <a href="#" class="footer__link">Marketplace</a>
-          <a href="#" class="footer__link">Rankings</a>
-          <a href="#" class="footer__link">Connect a wallet</a>
-        </div>
-        <div class="footer__info-section">
-          <p class="footer__text_bold">Join our weekly digest</p>
-          <p class="footer__text">Get exclusive promotions & updates straight to your inbox.</p>
-          <form action="subscribe" class="subscribe-form footer__subscribe-form">
-            <input type="email" placeholder="Enter your email here" class="subscribe-form__email" />
-            <button type="submit" class="subscribe-form__submit-button">Subscribe</button>
-          </form>
-        </div>
+        <div class="footer__divider"></div>
+        <p class="footer__copyright">Ⓒ NFT Market. Made by Ivan Lev</p>
       </div>
-      <div class="footer__divider"></div>
-      <p class="footer__copyright">Ⓒ NFT Market. Made by Ivan Lev</p>
     </footer>
   </body>
 </html>

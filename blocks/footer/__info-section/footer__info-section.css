@@ -6,3 +6,13 @@
 .footer__info-section:first-child {
   max-width: 245px;
 }
+
+@media screen and (max-width: 834px) {
+  .footer__info-section {
+    width: 100%;
+  }
+
+  .footer__info-section:first-child {
+    max-width: 100%;
+  }
+}

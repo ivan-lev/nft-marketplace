@@ -1,9 +1,16 @@
 .top-creators__button {
-  flex-shrink: 0;
+  align-self: end;
+  grid-area: button;
 }
 
 .top-creators__button:before {
   content: url('../../../images/button-rocket-violet.svg');
   line-height: 0;
   margin-right: 14px;
+}
+
+@media screen and (max-width: 425px) {
+  .top-creators__button {
+    width: 100%;
+  }
 }

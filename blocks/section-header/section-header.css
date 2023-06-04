@@ -1,10 +1,12 @@
 .section-header {
-  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
   text-transform: capitalize;
 }
 
-@media screen and (max-width: 834px) {
+@media screen and (max-width: 425px) {
   .section-header {
-    padding-bottom: 40px;
+    grid-area: heading;
   }
 }

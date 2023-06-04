@@ -1,0 +1,11 @@
+@media screen and (max-width: 834px) {
+  .discover-more-nfts {
+    padding-bottom: 80px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .discover-more-nfts {
+    padding-bottom: 60px;
+  }
+}

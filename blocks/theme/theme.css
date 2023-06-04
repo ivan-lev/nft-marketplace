@@ -15,6 +15,6 @@
 
   /* USED FONTS */
 
-  --font-main: 'Work Sans', 'Roboto', 'Helvetica', 'Open Sans', sans-serif;
-  --font-minor: 'Space Mono', 'Courier, ' monospace;
+  --font-main: "Work Sans", "Roboto", "Helvetica", "Open Sans", sans-serif;
+  --font-minor: "Space Mono", "Courier", monospace;
 }

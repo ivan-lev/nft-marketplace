@@ -1,19 +1,24 @@
 .how-it-works__card-image {
-  width: 250px;
+  max-width: 250px;
+  width: 100%;
   height: auto;
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 834px) {
   .how-it-works__card-image {
-    width: 160px;
-    height: auto;
+    max-width: 160px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .how-it-works__card-image {
+    margin-bottom: 0;
   }
 }
 
 @media screen and (max-width: 425px) {
   .how-it-works__card-image {
     width: 100px;
-    height: auto;
   }
 }

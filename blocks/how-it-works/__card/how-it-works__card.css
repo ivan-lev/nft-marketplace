@@ -1,5 +1,5 @@
 .how-it-works__card {
-  width: calc(calc(100% - 60px) / 3);
+  width: 33%;
   background-color: var(--color-medium);
   border-radius: 20px;
   display: flex;
@@ -10,9 +10,16 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 834px) {
+  .how-it-works__card {
+    padding: 10px 20px 30px;
+  }
+}
+
+@media screen and (max-width: 650px) {
   .how-it-works__card {
     flex-direction: row;
     width: unset;
+    padding: 20px;
   }
 }

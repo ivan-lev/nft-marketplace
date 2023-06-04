@@ -15,8 +15,9 @@
 @import url('../blocks/button-style-link/_background/button-style-link_background_transparent.css');
 
 @import url('../blocks/section/section.css');
+@import url('../blocks/section/_with-button/section_with-button.css');
 @import url('../blocks/section-header/section-header.css');
-@import url('../blocks/section-header/_type/section-header_type_with-button.css');
+/* @import url('../blocks/section-header/_type/section-header_type_with-button.css'); */
 @import url('../blocks/section-header/__title/section-header__title.css');
 @import url('../blocks/section-header/__subtitle/section-header__subtitle.css');
 
@@ -38,7 +39,7 @@
 /* ======= DISCOVER-DIGITAL-ART STYLES ======= */
 
 @import url('../blocks/discover-digital-art/discover-digital-art.css');
-@import url('../blocks/discover-digital-art/__text-column/discover-digital-art__text-column.css');
+/* @import url('../blocks/discover-digital-art/__text-column/discover-digital-art__text-column.css'); */
 @import url('../blocks/discover-digital-art/__title/discover-digital-art__title.css');
 @import url('../blocks/discover-digital-art/__text/discover-digital-art__text.css');
 @import url('../blocks/discover-digital-art/__button/discover-digital-art__button.css');
@@ -64,6 +65,7 @@
 /* ======= TOP CREATORS STYLES ======= */
 
 @import url('../blocks/top-creators/top-creators.css');
+@import url('../blocks/top-creators/__heading/top-creator__heading.css');
 @import url('../blocks/top-creators/__button/top-creators__button.css');
 @import url('../blocks/artists-cards/artists-cards.css');
 @import url('../blocks/artists-cards/__card/artists-cards__card.css');
@@ -103,6 +105,7 @@
 
 /* ======= DISCOVER MORE NFTS STYLES ======= */
 
+@import url('../blocks/discover-more-nfts/discover-more-nfts.css');
 @import url('../blocks/discover-more-nfts/__button/discover-more-nfts__button.css');
 @import url('../blocks/discover-more-nfts/__cards-list/discover-more-nfts__cards-list.css');
 @import url('../blocks/discover-more-nfts/__card/discover-more-nfts__card.css');
@@ -123,7 +126,7 @@
 
 @import url('../blocks/magic-mushrooms/magic-mushrooms.css');
 @import url('../blocks/magic-mushrooms/__content/magic-mushrooms__content.css');
-@import url('../blocks/magic-mushrooms/__left-column/magic-mushrooms__left-column.css');
+/* @import url('../blocks/magic-mushrooms/__left-column/magic-mushrooms__left-column.css'); */
 @import url('../blocks/magic-mushrooms/__authors-link/magic-mushrooms__authors-link.css');
 @import url('../blocks/magic-mushrooms/__title/magic-mushrooms__title.css');
 @import url('../blocks/magic-mushrooms/__button-style-link/magic-mushrooms__button-style-link.css');
@@ -138,7 +141,7 @@
 @import url('../blocks/counter/__title/counter__title.css');
 
 /* ======= HOW IT WORKS STYLES ======= */
-@import url('../blocks/how-it-works/__header/how-it-works__header.css');
+/* @import url('../blocks/how-it-works/__header/how-it-works__header.css'); */
 @import url('../blocks/how-it-works/__cards-list/how-it-works__cards-list.css');
 @import url('../blocks/how-it-works/__card/how-it-works__card.css');
 @import url('../blocks/how-it-works/__card-image/how-it-works__card-image.css');
@@ -167,8 +170,10 @@
 /* ===== FOOTER STYLES ===== */
 
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__section/footer__section.css');
 @import url('../blocks/footer/__info/footer__info.css');
 @import url('../blocks/footer/__info-section/footer__info-section.css');
+@import url('../blocks/footer/__logo/footer__logo.css');
 @import url('../blocks/footer/__text/footer__text.css');
 @import url('../blocks/footer/__social-links/footer__social-links.css');
 @import url('../blocks/footer/__social-logo/footer__social-logo.css');

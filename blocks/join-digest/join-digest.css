@@ -1,3 +1,9 @@
 .join-digest {
   padding-top: 40px;
 }
+
+@media screen and (max-width: 834px) {
+  .join-digest {
+    padding-bottom: 80px;
+  }
+}

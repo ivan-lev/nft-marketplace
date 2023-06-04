@@ -1,5 +1,4 @@
 .root {
-  max-width: 1280px;
   margin: 0 auto;
   background: var(--bg-color);
   font-family: var(--font-main), sans-serif;

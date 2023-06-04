@@ -1,20 +1,26 @@
 .magic-mushrooms__content {
   width: 100%;
+  max-width: 1280px;
   height: 100%;
+  margin: 0 auto;
   display: grid;
   gap: 30px;
-  grid-template-columns: 1fr 295px;
+  grid-template-columns: calc(100% - 295px - 30px) 295px;
   justify-content: space-between;
   align-items: end;
   grid-template-areas:
-    '. counter'
-    '. counter'
-    '. counter';
+    'link counter'
+    'heading counter'
+    'button counter';
 }
 
 @media screen and (max-width: 650px) {
   .magic-mushrooms__content {
-    grid-template-areas: unset;
+    grid-template-areas:
+      'link'
+      'heading'
+      'counter'
+      'button';
     grid-template-columns: 1fr;
   }
 }

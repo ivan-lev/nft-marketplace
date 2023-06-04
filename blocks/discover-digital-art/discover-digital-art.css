@@ -1,25 +1,32 @@
 .discover-digital-art {
   display: grid;
-  grid-template-columns: 1fr calc(50% - 15px);
-  gap: 15px 30px;
+  grid-template-columns: 49% 50%;
+  gap: 20px 30px;
   justify-content: space-between;
   grid-template-areas:
-    '. card'
     '. card'
     '. card'
     '. card'
     '. card';
 }
 
+@media screen and (max-width: 834px) {
+  .discover-digital-art {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
 @media screen and (max-width: 425px) {
   .discover-digital-art {
+    padding-top: 40px;
+    padding-bottom: 40px;
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 40px;
     grid-template-areas:
-      'title'
-      'text'
+      'heading'
       'image'
       'button'
-      'stats';
+      'content';
   }
 }

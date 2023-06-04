@@ -5,16 +5,17 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 30px;
+  gap: 80px;
 }
 
 @media screen and (max-width: 834px) {
   .join-digest__wrapper {
     padding: 40px 30px;
+    gap: 30px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 768px) {
   .join-digest__wrapper {
     flex-direction: column;
   }
