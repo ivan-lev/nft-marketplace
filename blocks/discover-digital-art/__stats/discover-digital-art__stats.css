@@ -13,7 +13,7 @@
   }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 425px) {
   .discover-digital-art__stats {
     grid-area: stats;
   }

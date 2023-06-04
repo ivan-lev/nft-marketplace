@@ -5,7 +5,7 @@
   gap: 30px;
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 425px) {
   .browse-categories__list {
     gap: 20px;
   }

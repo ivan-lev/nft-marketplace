@@ -29,7 +29,7 @@
   }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 425px) {
   .artists-cards__card {
     width: unset;
   }
