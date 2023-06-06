@@ -6,12 +6,22 @@
   --color-silver: #cccccc;
   --color-white: #ffffff;
   --color-lavender: #a259ff;
+  --color-transparent: transparent;
 
   /* COLOR VARIABLES */
 
   --bg-color: var(--color-dark);
   --text-color-main: var(--color-white);
   --text-color-minor: var(--color-light);
+
+  /* BUTTONS */
+
+  --button-border-color: var(--color-lavender);
+  --button-back-color: var(--color-lavender);
+
+  --button-special-color: var(--color-dark);
+  --button-special-back-color: var(--color-white);
+  --button-special-border: var(--color-white);
 
   /* USED FONTS */
 

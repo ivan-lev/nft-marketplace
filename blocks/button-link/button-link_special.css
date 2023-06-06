@@ -1,0 +1,5 @@
+.button-link_special {
+  color: var(--button-special-color);
+  background: var(--button-special-back-color);
+  border: var(--button-special-border);
+}

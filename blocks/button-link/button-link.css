@@ -1,12 +1,12 @@
-.button-style-link {
+.button-link {
   font-family: var(--font-main);
   font-style: normal;
   font-weight: 600;
   font-size: 16px;
   text-decoration: none;
   color: white;
-  border: 2px solid var(--color-lavender);
-  background: var(--color-lavender);
+  border: 2px solid var(--button-border-color);
+  background: var(--button-color);
   border-radius: 20px;
   height: 60px;
   display: flex;
@@ -19,7 +19,7 @@
   width: fit-content;
 }
 
-.button-style-link:before {
+.button-link:before {
   line-height: 0;
   margin-right: 12px;
 }

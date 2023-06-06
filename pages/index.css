@@ -8,11 +8,15 @@
 @import url('../blocks/theme/theme.css');
 @import url('../blocks/root/root.css');
 
-/* ======= COMMON BLOCKS STYLES ======= */
+/* ======= LOGO STYLES ======= */
 
 @import url('../blocks/logo/logo.css');
-@import url('../blocks/button-style-link/button-style-link.css');
-@import url('../blocks/button-style-link/_background/button-style-link_background_transparent.css');
+
+/* ======= BUTTON LINKS STYLES ======= */
+
+@import url('../blocks/button-link/button-link.css');
+@import url('../blocks/button-link/button-link_transparent.css');
+@import url('../blocks/button-link/button-link_special.css');
 
 @import url('../blocks/section/section.css');
 @import url('../blocks/section/_with-button/section_with-button.css');
