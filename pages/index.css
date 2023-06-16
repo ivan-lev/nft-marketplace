@@ -86,23 +86,7 @@
 @import url('../blocks/browse-categories/__link/browse-categories__link.css');
 @import url('../blocks/browse-categories/__image/browse-categories__image.css');
 @import url('../blocks/browse-categories/__icon/browse-categories__icon.css');
-@import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_art.css');
-@import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_collectibles.css');
-@import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_music.css');
-@import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_photography.css');
-@import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_sport.css');
-@import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_utility.css');
-@import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_video.css');
-@import url('../blocks/browse-categories/__icon/_type/browse-categories__icon_type_virtual-worlds.css');
 @import url('../blocks/browse-categories/__placeholder/browse-categories__placeholder.css');
-@import url('../blocks/browse-categories/__placeholder/_type/browse-categories__placeholder_type_art.css');
-@import url('../blocks/browse-categories/__placeholder/_type/browse-categories__placeholder_type_collectibles.css');
-@import url('../blocks/browse-categories/__placeholder/_type/browse-categories__placeholder_type_music.css');
-@import url('../blocks/browse-categories/__placeholder/_type/browse-categories__placeholder_type_photography.css');
-@import url('../blocks/browse-categories/__placeholder/_type/browse-categories__placeholder_type_sport.css');
-@import url('../blocks/browse-categories/__placeholder/_type/browse-categories__placeholder_type_utility.css');
-@import url('../blocks/browse-categories/__placeholder/_type/browse-categories__placeholder_type_video.css');
-@import url('../blocks/browse-categories/__placeholder/_type/browse-categories__placeholder_type_virtual-worlds.css');
 @import url('../blocks/browse-categories/__category-name/browse-categories__category-name.css');
 
 /* ======= DISCOVER MORE NFTS STYLES ======= */
