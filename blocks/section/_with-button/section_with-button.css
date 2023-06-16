@@ -1,7 +1,6 @@
 .section_with-button {
-  grid-template-columns: 1fr 250px;
+  grid-template-columns: 1fr max-content;
   column-gap: 20px;
-  justify-content: space-around;
   grid-template-areas:
     'heading button'
     'content content';
@@ -17,17 +16,3 @@
       'button';
   }
 }
-
-/* .section_with-button {
-  grid-template-columns: 1fr 250px;
-  column-gap: 20px;
-  justify-content: space-around;
-  grid-template-areas:
-    'heading button'
-    'content content';
-}
-
-@media screen and (max-width: 834px) {
-  .section_with-button {
-  }
-} */

@@ -21,7 +21,6 @@
 @import url('../blocks/section/section.css');
 @import url('../blocks/section/_with-button/section_with-button.css');
 @import url('../blocks/section-header/section-header.css');
-/* @import url('../blocks/section-header/_type/section-header_type_with-button.css'); */
 @import url('../blocks/section-header/__title/section-header__title.css');
 @import url('../blocks/section-header/__subtitle/section-header__subtitle.css');
 
@@ -43,7 +42,6 @@
 /* ======= DISCOVER-DIGITAL-ART STYLES ======= */
 
 @import url('../blocks/discover-digital-art/discover-digital-art.css');
-/* @import url('../blocks/discover-digital-art/__text-column/discover-digital-art__text-column.css'); */
 @import url('../blocks/discover-digital-art/__title/discover-digital-art__title.css');
 @import url('../blocks/discover-digital-art/__text/discover-digital-art__text.css');
 @import url('../blocks/discover-digital-art/__button/discover-digital-art__button.css');
@@ -60,6 +58,7 @@
 @import url('../blocks/trending-collection/__table-image_big/trending-collection__table-image-big.css');
 @import url('../blocks/trending-collection/__table-small-images-row/trending-collection__table-small-images-row.css');
 @import url('../blocks/trending-collection/__table-image_small/trending-collection__table-image-small.css');
+@import url('../blocks/trending-collection/__description/trending-collection__description.css');
 @import url('../blocks/trending-collection/__browse-button/trending-collection__browse-button.css');
 @import url('../blocks/trending-collection/__browse-content/trending-collection__browse-content.css');
 @import url('../blocks/trending-collection/__digital-art-author-name-1/trending-collection__digital-art-author-name-1.css');
@@ -68,7 +67,6 @@
 
 /* ======= TOP CREATORS STYLES ======= */
 
-@import url('../blocks/top-creators/top-creators.css');
 @import url('../blocks/top-creators/__heading/top-creator__heading.css');
 @import url('../blocks/top-creators/__button/top-creators__button.css');
 @import url('../blocks/artists-cards/artists-cards.css');
@@ -130,7 +128,6 @@
 
 @import url('../blocks/magic-mushrooms/magic-mushrooms.css');
 @import url('../blocks/magic-mushrooms/__content/magic-mushrooms__content.css');
-/* @import url('../blocks/magic-mushrooms/__left-column/magic-mushrooms__left-column.css'); */
 @import url('../blocks/magic-mushrooms/__authors-link/magic-mushrooms__authors-link.css');
 @import url('../blocks/magic-mushrooms/__title/magic-mushrooms__title.css');
 @import url('../blocks/magic-mushrooms/__button-style-link/magic-mushrooms__button-style-link.css');
@@ -145,7 +142,6 @@
 @import url('../blocks/counter/__title/counter__title.css');
 
 /* ======= HOW IT WORKS STYLES ======= */
-/* @import url('../blocks/how-it-works/__header/how-it-works__header.css'); */
 @import url('../blocks/how-it-works/__cards-list/how-it-works__cards-list.css');
 @import url('../blocks/how-it-works/__card/how-it-works__card.css');
 @import url('../blocks/how-it-works/__card-image/how-it-works__card-image.css');

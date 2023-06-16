@@ -1,10 +1,9 @@
 .discover-digital-art {
   display: grid;
   grid-template-columns: 49% 50%;
-  gap: 20px 30px;
+  gap: 25px 30px;
   justify-content: space-between;
   grid-template-areas:
-    '. card'
     '. card'
     '. card'
     '. card';

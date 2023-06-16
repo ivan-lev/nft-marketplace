@@ -1,5 +1,5 @@
 .browse-categories__card {
-  width: calc(100% / 4 - 23px);
+  min-width: 240px;
   min-height: 316px;
   background: var(--color-medium);
   border-radius: 20px;
@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  flex: 1;
   padding: 0 0 25px 0;
   box-sizing: border-box;
 }

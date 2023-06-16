@@ -6,7 +6,7 @@
   text-decoration: none;
   color: white;
   border: 2px solid var(--button-border-color);
-  background: var(--button-color);
+  background: var(--button-back-color);
   border-radius: 20px;
   height: 60px;
   display: flex;
@@ -17,6 +17,7 @@
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  align-self: end;
 }
 
 .button-link:before {

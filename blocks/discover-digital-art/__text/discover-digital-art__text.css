@@ -11,9 +11,3 @@
     line-height: 22px;
   }
 }
-
-@media screen and (max-width: 425px) {
-  .discover-digital-art__text {
-    grid-area: text;
-  }
-}

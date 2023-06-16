@@ -1,9 +1,3 @@
-.magic-mushrooms__button-style-link {
-  /* background-color: var(--color-white);
-  color: var(--color-dark);
-  border: 0; */
-}
-
 .magic-mushrooms__button-style-link:before {
   content: url('../../../images/button-eye.svg');
 }

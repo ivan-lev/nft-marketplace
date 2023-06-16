@@ -1,4 +1,7 @@
 .digital-art-card__image-description {
   background: var(--color-medium);
   padding: 22px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
