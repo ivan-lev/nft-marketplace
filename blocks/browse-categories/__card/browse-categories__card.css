@@ -21,5 +21,6 @@
 @media screen and (max-width: 425px) {
   .browse-categories__card {
     width: calc(100% / 2 - 10px);
+    min-width: 150px;
   }
 }
